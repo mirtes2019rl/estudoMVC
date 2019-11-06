@@ -1,0 +1,25 @@
+{
+	"name": "son/mvc",
+	
+	"require":{
+		"php" : ">=5.3",
+		"klein/klein": "^2.1"
+	},
+	
+	"minimus-stability" : "alpha",
+	
+	"authors" : [{
+		"name" : "Renan Lima",
+		"email" : "renan.arantes123@gmail.com"
+	}],
+
+	"autoload" : {
+		"psr-4" : {
+			"FrameworkAULA\\" : "vendor/frameworkAULA/",
+			"App\\" : "app"
+		}
+	}
+
+
+
+}
